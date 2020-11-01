@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.slider h1 {
+	font-size: 70px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+	color: #ffc93c;
+	font-weight: 900;
+	letter-spacing: 2pt;
+}
+.slider {
+	margin-top: 70px;
+	width: 100%;
+/*	position: absolute;*/
+	height: calc(100vh - 70px);
+	background-image: url(../images/flg1.jpg);
+	background-size: 100% 100%;
+	animation: slider 12s infinite linear;
+}
+@keyframes slider{
+	0% {
+		background-image: url(../images/flg1.jpg);
+		background-size: 100% 100%;
+	}
+	35% {
+		background-image: url(../images/flg2.jpg);
+		background-size: 100% 100%;
+	}
+	75% {
+		background-image: url(../images/flg3.jpg);
+		background-size: 100% 100%;
+	}
+}
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+/* ------------- Destination Cards Section ----------------- */
+.dest-card{
+    border-radius: 10px !important;
+    cursor: pointer;
+}
+.dest-card-img{
+    border-radius: 10px !important;
+    position: relative;
+}
+.dest-card-title{
+   color: black;
+   text-align: center;
+}
+.dest-card-info h4{
+    margin-bottom: 0;
+}
+.dest-card{
+    box-shadow: 0 10px 10px black;
+	border-radius: 10px;
+}
+/*------------*/
+.location-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 10px;
+}
+.location-img{
+	position: relative;
+}
+.btn{
+    border-radius: 50px;
+
+}
+.form-group select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.btn{
+    border-radius: 50px;
+}
+.btn a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+

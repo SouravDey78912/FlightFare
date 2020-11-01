@@ -1,0 +1,164 @@
+.navbar-brand {
+    margin: 0 100px;
+    height: 55px;
+}
+.navbar-right {
+    margin: 0 70px;
+}
+.nav-item {
+    margin: 0 20px;
+}
+/*++++++++++++++++++++++++++++++*/
+.divider {
+    background: #ddd;
+    margin: 20px 60px;
+}
+footer {
+    color: #ddd;
+}
+.bg-black {
+    background: #222;
+}
+/*++++++++++++++++++++++++++++++++++
+SLIDER
++++++++++++++++++++++++++++++++++++*/
+.slider img {
+    top: 35%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+}
+.slider h1 {
+	font-size: 70px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+	color: #fff;
+	font-weight: 900;
+	letter-spacing: 2pt;
+}
+.slider {
+	margin-top: 70px;
+	width: 100%;
+/*	position: absolute;*/
+	height: calc(100vh - 70px);
+	background-image: url(../images/first-image.jpg);
+	background-size: 100% 100%;
+	animation: slider 16s infinite linear;
+}
+@keyframes slider{
+	0% {
+		background-image: url(../images/first-image.jpg);
+		background-size: 100% 100%;
+	}
+	25% {
+		background-image: url(../images/second-image.jpg);
+		background-size: 100% 100%;
+	}
+	50% {
+		background-image: url(../images/third-image.jpg);
+		background-size: 100% 100%;
+	}
+    75% {
+        background-image: url(../images/fourth-image.jpg);
+		background-size: 100% 100%;
+    }
+}
+.footer-row {
+    padding: 50px 100px;
+}
+.col-sm-4 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+    border: 1px solid #1aa6b7;
+    color: #fff;
+}
+.col-sm-4 i:hover {
+    border: 1px solid #1aa6b7;
+    border-radius: 100%;
+    transition: .6s;
+}
+.col-sm-4 a {
+    margin-right: 10px;
+}
+.col-sm-2 a {
+    color: #ddd;
+    text-decoration: none;
+}
+.col-sm-2 a:hover {
+    color: #1aa6b7;
+}
+footer h5 {
+    color: #fff;
+    font-weight: bolder;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++
+HOTEL
+++++++++++++++++++++++++++++++++++++++++++++++*/
+.portion {
+    padding: 50px 20px;
+}
+.portion h1 {
+    padding: 20px 20px;
+    font-size: 30px;
+}
+.more {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #00bcd4;
+    text-align: center;
+}
+.portion .col-md-4 img {
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+.portion .col-md-2 img {
+    width: 190px;
+    height: 190px;
+    cursor: pointer;
+}
+.portion .col-md-2 p {
+    font-weight: bold;
+}
+.more a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
